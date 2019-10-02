@@ -1,0 +1,23 @@
+
+
+/*
+let idealCar = {
+    name: "Mustang",
+    color: "Red",
+    weightInPounds: 3600,
+    myCar: function() {
+        console.log("My ideal car is a " + this.name + " with a color of " + this.color + ", but I do not want it to be over " + this.weightInPounds + " pounds.");
+    }
+
+};
+idealCar.myCar();
+*/
+function name(firstName){
+    
+    let displayMessage = ((firstName === "John") ?
+    document.getElementById("demo").innerHTML = "Hello John!" : 
+    document.getElementById("demo").innerHTML = "Hello Human!");
+
+  }
+
+name("John");
